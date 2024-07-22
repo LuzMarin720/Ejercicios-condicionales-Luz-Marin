@@ -19,16 +19,13 @@ let numero;
 while (true) {
     numero = parseInt(prompt("Ingrese un número (ingrese 0 para terminar):"));
 
-    // Verificamos si se ingresó 0 para salir del bucle
     if (numero === 0) {
         break;
     }
 
-    // Acumulamos el número ingresado a la suma total
     suma += numero;
 }
 
-// Mostramos el resultado final de la suma
 console.log(`El resultado de la suma es: ${suma}`);
 
 /*3. Realizar en juego de adivinar el numero del los ejercicios del tema anterior, en una
@@ -267,9 +264,9 @@ do {
         alert(`Gana ${jugador2} con PAPEL sobre PIEDRA`);
         break
 
-    }else if(opcion1 === opcion2) {
+    } else if (opcion1 === opcion2) {
         alert("Hay un empate, se sigue jugando");
-    
+
     }
 
 } while (true);
